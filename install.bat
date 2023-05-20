@@ -1,0 +1,6 @@
+@ECHO OFF
+ECHO Backuping your original MBR to mbr.old ...
+mbr.exe /r mbr.old
+ECHO Installing BOOT NAVIGATOR to MBR ...
+mbr.exe /w mbr.bn
+ECHO Done.
